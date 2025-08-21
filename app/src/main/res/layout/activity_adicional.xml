@@ -39,23 +39,44 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         tools:layout_editor_absoluteX="-2dp">
 
-        <Button
-            android:id="@+id/button"
+        <EditText
+            android:id="@+id/editTextText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name" />
 
-        <Button
-            android:id="@+id/button2"
+        <EditText
+            android:id="@+id/editTextText3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="416dp"
         android:layout_height="466dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteY="265dp"></LinearLayout>
+        tools:layout_editor_absoluteY="265dp">
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
